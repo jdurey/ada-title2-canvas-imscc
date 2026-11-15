@@ -1,0 +1,48 @@
+{
+  "name": "ada-title2-canvas-imscc",
+  "version": "1.0.0",
+  "description": "Zero-dependency DOJ ADA Title II (April 26, 2027) 12-rule WCAG 2.1 Level AA HTML & Canvas LMS syllabus auditor and W3C MathML helper.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Still Human Academy <https://title2.stillhumanacademy.com>",
+  "homepage": "https://title2.stillhumanacademy.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdurey/ada-title2-canvas-imscc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jdurey/ada-title2-canvas-imscc/issues"
+  },
+  "bin": {
+    "title2-html-audit": "./bin/title2-html-audit.mjs"
+  },
+  "main": "./src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "examples/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/cli_and_lib.test.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "canvas-lms",
+    "wcag",
+    "wcag-2.1",
+    "ada-title-ii",
+    "accessibility",
+    "imscc",
+    "higher-education",
+    "instructional-design",
+    "mathml",
+    "blackboard-ally"
+  ]
+}
