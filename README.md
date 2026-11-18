@@ -3,12 +3,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](./package.json)
 [![Node.js >= 18](https://img.shields.io/badge/node-%3E%3D18.0.0-339933.svg)](./package.json)
+[![Canvas Chrome Extension](https://img.shields.io/badge/Chrome_Web_Store-Canvas_Rubric_%26_QTI-0f766e.svg)](https://chromewebstore.google.com/detail/canvas-assessment-rubric/aholdfpbhfiipondaloaooenjpfeccnp)
 
 Zero-dependency Node.js CLI and ESM library that audits university HTML pages and Canvas LMS syllabi against the **12 DOJ ADA Title II WCAG 2.1 Level AA rules** ahead of the **April 26, 2027** public higher-education enforcement deadline (`28 CFR Part 35 Subpart H`).
 
 > [!TIP]
 > **Need to batch-convert untagged university PDFs, `.docx` syllabi, and STEM handouts directly into WCAG 2.1 AA Native Canvas Modules (`.imscc`) in 15 seconds?**
-> Instructional designers, accessibility offices, and faculty can run the 100% browser-local compiler (zero server PDF uploads, FERPA/HECVAT safe, free 2-page `_SAMPLE.imscc` proof, plus **$99 Department P-Card Packs** under standard `$100` university purchasing limits) at **[title2.stillhumanacademy.com](https://title2.stillhumanacademy.com)**:
+> Instructional designers, accessibility offices, and faculty can run the 100% browser-local compiler (zero server PDF uploads, FERPA/HECVAT safe, free 2-page `_SAMPLE.imscc` proof, plus **$99 Department P-Card Packs** under standard `$100` university purchasing limits) at **[title2.stillhumanacademy.com](https://title2.stillhumanacademy.com)**, and install our free companion Chrome extension (**[Canvas Assessment & Rubric Matrix Exporter](https://chromewebstore.google.com/detail/canvas-assessment-rubric/aholdfpbhfiipondaloaooenjpfeccnp)**) for SpeedGrader rubric Excel matrices and QTI `.zip` exports:
 >
 > - **DOJ ADA Title II April 2027 Batch PDF-to-Canvas `.imscc` Compiler:** [title2.stillhumanacademy.com/ada-title-ii-canvas-pdf-remediation](https://title2.stillhumanacademy.com/ada-title-ii-canvas-pdf-remediation)
 > - **Convert PDF Syllabi to WCAG 2.1 AA Native Canvas Pages:** [title2.stillhumanacademy.com/pdf-syllabus-to-canvas-accessible-html](https://title2.stillhumanacademy.com/pdf-syllabus-to-canvas-accessible-html)
